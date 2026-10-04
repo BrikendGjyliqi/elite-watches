@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Panerai">
+  <defs>
+    <linearGradient id="panerai-gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8C9A6"/>
+      <stop offset="50%" stop-color="#D9B08D"/>
+      <stop offset="100%" stop-color="#B8935F"/>
+    </linearGradient>
+    <style>
+      .wm { font-family: 'Playfair Display', 'Didot', 'Times New Roman', serif; font-weight: 500; letter-spacing: 0.3em; }
+      .tg { font-family: 'Cormorant Garamond', 'Garamond', serif; font-style: italic; letter-spacing: 0.3em; }
+    </style>
+  </defs>
+  <rect width="400" height="400" fill="#2C3531"/>
+  <rect x="30" y="30" width="340" height="340" fill="none" stroke="#D9B08D" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Crown bridge / cushion case silhouette -->
+  <g transform="translate(200, 155)">
+    <!-- Cushion shape -->
+    <rect x="-45" y="-45" width="90" height="90" rx="18" ry="18" fill="none" stroke="url(#panerai-gold)" stroke-width="1.5"/>
+    <!-- Crown bridge on right -->
+    <rect x="45" y="-10" width="12" height="20" fill="url(#panerai-gold)"/>
+    <path d="M 57,-10 Q 65,0 57,10" fill="none" stroke="url(#panerai-gold)" stroke-width="1.5"/>
+    <!-- Center P -->
+    <text x="0" y="12" font-family="Georgia, serif" font-size="42" fill="url(#panerai-gold)" text-anchor="middle" font-weight="500">P</text>
+  </g>
+
+  <text x="200" y="250" class="wm" fill="url(#panerai-gold)" font-size="28" text-anchor="middle">PANERAI</text>
+  <line x1="140" y1="270" x2="195" y2="270" stroke="#D9B08D" stroke-width="0.6"/>
+  <circle cx="200" cy="270" r="1.5" fill="#D9B08D"/>
+  <line x1="205" y1="270" x2="260" y2="270" stroke="#D9B08D" stroke-width="0.6"/>
+  <text x="200" y="300" class="tg" fill="#D1E8E2" font-size="12" text-anchor="middle" opacity="0.8">FLORENCE · 1860</text>
+</svg>

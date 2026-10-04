@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Audemars Piguet">
+  <defs>
+    <linearGradient id="ap-gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8C9A6"/>
+      <stop offset="50%" stop-color="#D9B08D"/>
+      <stop offset="100%" stop-color="#B8935F"/>
+    </linearGradient>
+    <style>
+      .wm { font-family: 'Playfair Display', 'Didot', 'Times New Roman', serif; font-weight: 500; letter-spacing: 0.3em; }
+      .monogram { font-family: 'Playfair Display', 'Didot', 'Times New Roman', serif; font-weight: 400; }
+      .tg { font-family: 'Cormorant Garamond', 'Garamond', serif; font-style: italic; letter-spacing: 0.3em; }
+    </style>
+  </defs>
+  <rect width="400" height="400" fill="#2C3531"/>
+  <rect x="30" y="30" width="340" height="340" fill="none" stroke="#D9B08D" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- AP monogram in a circle -->
+  <circle cx="200" cy="150" r="48" fill="none" stroke="url(#ap-gold)" stroke-width="1.5"/>
+  <text x="200" y="170" class="monogram" fill="url(#ap-gold)" font-size="52" text-anchor="middle">AP</text>
+
+  <text x="200" y="245" class="wm" fill="url(#ap-gold)" font-size="20" text-anchor="middle">AUDEMARS PIGUET</text>
+  <line x1="140" y1="265" x2="195" y2="265" stroke="#D9B08D" stroke-width="0.6"/>
+  <circle cx="200" cy="265" r="1.5" fill="#D9B08D"/>
+  <line x1="205" y1="265" x2="260" y2="265" stroke="#D9B08D" stroke-width="0.6"/>
+  <text x="200" y="295" class="tg" fill="#D1E8E2" font-size="12" text-anchor="middle" opacity="0.8">LE BRASSUS · 1875</text>
+</svg>

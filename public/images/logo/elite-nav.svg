@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" role="img" aria-label="ÉLITE">
+  <defs>
+    <linearGradient id="goldGradNav" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8C9A6"/>
+      <stop offset="50%" stop-color="#D9B08D"/>
+      <stop offset="100%" stop-color="#B8935F"/>
+    </linearGradient>
+    <style>
+      .wm-nav { font-family: 'Playfair Display', 'Didot', 'Bodoni 72', 'Times New Roman', serif; font-weight: 500; letter-spacing: 0.5em; }
+    </style>
+  </defs>
+
+  <text x="200" y="52" class="wm-nav" fill="url(#goldGradNav)" font-size="36" text-anchor="middle">ÉLITE</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="TAG Heuer">
+  <defs>
+    <linearGradient id="tag-gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8C9A6"/>
+      <stop offset="50%" stop-color="#D9B08D"/>
+      <stop offset="100%" stop-color="#B8935F"/>
+    </linearGradient>
+    <style>
+      .wm { font-family: 'Playfair Display', 'Didot', 'Times New Roman', serif; font-weight: 500; letter-spacing: 0.3em; }
+      .tg { font-family: 'Cormorant Garamond', 'Garamond', serif; font-style: italic; letter-spacing: 0.3em; }
+    </style>
+  </defs>
+  <rect width="400" height="400" fill="#2C3531"/>
+  <rect x="30" y="30" width="340" height="340" fill="none" stroke="#D9B08D" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Shield with chronograph-like elements -->
+  <g transform="translate(200, 155)">
+    <path d="M -40,-45 L 40,-45 L 40,20 Q 40,45 0,55 Q -40,45 -40,20 Z" fill="none" stroke="url(#tag-gold)" stroke-width="1.5"/>
+    <text x="0" y="10" font-family="Georgia, serif" font-size="32" fill="url(#tag-gold)" text-anchor="middle" font-weight="500">TH</text>
+    <line x1="-25" y1="-30" x2="25" y2="-30" stroke="url(#tag-gold)" stroke-width="0.6"/>
+  </g>
+
+  <text x="200" y="250" class="wm" fill="url(#tag-gold)" font-size="26" text-anchor="middle">TAG HEUER</text>
+  <line x1="140" y1="270" x2="195" y2="270" stroke="#D9B08D" stroke-width="0.6"/>
+  <circle cx="200" cy="270" r="1.5" fill="#D9B08D"/>
+  <line x1="205" y1="270" x2="260" y2="270" stroke="#D9B08D" stroke-width="0.6"/>
+  <text x="200" y="300" class="tg" fill="#D1E8E2" font-size="12" text-anchor="middle" opacity="0.8">LA CHAUX-DE-FONDS · 1860</text>
+</svg>

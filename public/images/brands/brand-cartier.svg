@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Cartier">
+  <defs>
+    <linearGradient id="cartier-gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8C9A6"/>
+      <stop offset="50%" stop-color="#D9B08D"/>
+      <stop offset="100%" stop-color="#B8935F"/>
+    </linearGradient>
+    <style>
+      .wm { font-family: 'Playfair Display', 'Didot', 'Times New Roman', serif; font-weight: 500; letter-spacing: 0.35em; }
+      .initial { font-family: 'Playfair Display', 'Didot', 'Times New Roman', serif; font-weight: 400; font-style: italic; }
+      .tg { font-family: 'Cormorant Garamond', 'Garamond', serif; font-style: italic; letter-spacing: 0.3em; }
+    </style>
+  </defs>
+  <rect width="400" height="400" fill="#2C3531"/>
+  <rect x="30" y="30" width="340" height="340" fill="none" stroke="#D9B08D" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Elegant C monogram with scrollwork -->
+  <g transform="translate(200, 155)">
+    <text x="0" y="25" class="initial" fill="url(#cartier-gold)" font-size="100" text-anchor="middle">C</text>
+    <line x1="-50" y1="40" x2="50" y2="40" stroke="url(#cartier-gold)" stroke-width="0.8"/>
+  </g>
+
+  <text x="200" y="245" class="wm" fill="url(#cartier-gold)" font-size="30" text-anchor="middle">CARTIER</text>
+  <line x1="140" y1="265" x2="195" y2="265" stroke="#D9B08D" stroke-width="0.6"/>
+  <circle cx="200" cy="265" r="1.5" fill="#D9B08D"/>
+  <line x1="205" y1="265" x2="260" y2="265" stroke="#D9B08D" stroke-width="0.6"/>
+  <text x="200" y="295" class="tg" fill="#D1E8E2" font-size="12" text-anchor="middle" opacity="0.8">PARIS · 1847</text>
+</svg>

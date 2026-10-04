@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Omega">
+  <defs>
+    <linearGradient id="omega-gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8C9A6"/>
+      <stop offset="50%" stop-color="#D9B08D"/>
+      <stop offset="100%" stop-color="#B8935F"/>
+    </linearGradient>
+    <style>
+      .wm { font-family: 'Playfair Display', 'Didot', 'Times New Roman', serif; font-weight: 500; letter-spacing: 0.3em; }
+      .tg { font-family: 'Cormorant Garamond', 'Garamond', serif; font-style: italic; letter-spacing: 0.3em; }
+    </style>
+  </defs>
+  <rect width="400" height="400" fill="#2C3531"/>
+  <rect x="30" y="30" width="340" height="340" fill="none" stroke="#D9B08D" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Omega symbol Ω -->
+  <text x="200" y="180" font-family="Georgia, serif" font-size="110" fill="url(#omega-gold)" text-anchor="middle" font-weight="300">Ω</text>
+
+  <text x="200" y="245" class="wm" fill="url(#omega-gold)" font-size="34" text-anchor="middle">OMEGA</text>
+  <line x1="140" y1="265" x2="195" y2="265" stroke="#D9B08D" stroke-width="0.6"/>
+  <circle cx="200" cy="265" r="1.5" fill="#D9B08D"/>
+  <line x1="205" y1="265" x2="260" y2="265" stroke="#D9B08D" stroke-width="0.6"/>
+  <text x="200" y="295" class="tg" fill="#D1E8E2" font-size="12" text-anchor="middle" opacity="0.8">BIEL · 1848</text>
+</svg>

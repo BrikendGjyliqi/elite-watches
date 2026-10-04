@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="IWC Schaffhausen">
+  <defs>
+    <linearGradient id="iwc-gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8C9A6"/>
+      <stop offset="50%" stop-color="#D9B08D"/>
+      <stop offset="100%" stop-color="#B8935F"/>
+    </linearGradient>
+    <style>
+      .wm { font-family: 'Playfair Display', 'Didot', 'Times New Roman', serif; font-weight: 500; letter-spacing: 0.4em; }
+      .mono { font-family: 'Playfair Display', 'Didot', 'Times New Roman', serif; font-weight: 500; letter-spacing: 0.15em; }
+      .tg { font-family: 'Cormorant Garamond', 'Garamond', serif; font-style: italic; letter-spacing: 0.3em; }
+    </style>
+  </defs>
+  <rect width="400" height="400" fill="#2C3531"/>
+  <rect x="30" y="30" width="340" height="340" fill="none" stroke="#D9B08D" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Fish/engineering motif within circle -->
+  <g transform="translate(200, 150)">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="url(#iwc-gold)" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="url(#iwc-gold)" stroke-width="0.5" opacity="0.5"/>
+    <text x="0" y="12" class="mono" fill="url(#iwc-gold)" font-size="34" text-anchor="middle">IWC</text>
+  </g>
+
+  <text x="200" y="245" class="wm" fill="url(#iwc-gold)" font-size="18" text-anchor="middle">SCHAFFHAUSEN</text>
+  <line x1="140" y1="265" x2="195" y2="265" stroke="#D9B08D" stroke-width="0.6"/>
+  <circle cx="200" cy="265" r="1.5" fill="#D9B08D"/>
+  <line x1="205" y1="265" x2="260" y2="265" stroke="#D9B08D" stroke-width="0.6"/>
+  <text x="200" y="295" class="tg" fill="#D1E8E2" font-size="12" text-anchor="middle" opacity="0.8">SWITZERLAND · 1868</text>
+</svg>

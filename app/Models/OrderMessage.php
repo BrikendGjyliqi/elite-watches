@@ -1,0 +1,34 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
+/**
+ * One entry in the conversation between a client and the atelier about a request.
+ */
+class OrderMessage extends Model
+{
+    protected $fillable = [
+        'order_id',
+        'user_id',
+        'author_role',
+        'body',
+    ];
+
+    public function order(): BelongsTo
+    {
+        return $this->belongsTo(Order::class);
+    }
+
+    public function author(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
+
+    public function isFromAtelier(): bool
+    {
+        return $this->author_role === 'atelier';
+    }
+}
